@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Fundo azul claro */
+    color: #333; /* Texto escuro */
+}
+
+header {
+    background-color: #d32f2f; /* Vermelho escuro */
+    color: white;
+    padding: 80px; /* Aumenta o padding para o cabeçalho */
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #e0e0e0; /* Efeito ao passar o mouse */
+}
+
+.about {
+    padding: 40px;
+    max-width: 800px;
+    margin: auto; /* Centraliza a seção sobre nós */
+    background-color: white; /* Fundo branco para destaque */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    text-align: center;
+    color: #d32f2f; /* Título em vermelho escuro */
+    margin-bottom: 20px;
+}
+
+.about p {
+    line-height: 1.6; /* Melhor legibilidade */
+    margin: 15px 0;
+}
+
+.about h3 {
+    color: #1976d2; /* Azul claro para subtítulos */
+}
+
+.about ul {
+    list-style-type: disc;
+    padding-left: 20px; /* Espaçamento à esquerda para listas */
+}
+
+footer {
+    text-align: center;
+    padding: 80px; /* Aumenta o padding para o rodapé */
+    background-color: #d32f2f; /* Vermelho escuro */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px; /* Espaçamento acima do rodapé */
+}
+
+/* Responsividade para dispositivos menores */
+@media (max-width: 768px) {
+    .about {
+        padding: 20px; /* Reduz o padding para dispositivos menores */
+    }
+
+    header {
+        padding: 40px; /* Reduz o padding do cabeçalho */
+    }
+
+    footer {
+        padding: 40px; /* Reduz o padding do rodapé */
+    }
+}
